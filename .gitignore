@@ -1,0 +1,37 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / VS Code / JetBrains
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Test results
+[Tt]est[Rr]esult*/
+TestResults/
+
+## Temporary & local database files
+*.db
+*.db-wal
+*.db-shm
+*.tmp
+*.temp
+
+## Backups & archives
+*.7z
+*.zip
+*.tar.gz
+*.bak
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
