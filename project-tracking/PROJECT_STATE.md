@@ -11,7 +11,7 @@
 
 - Le workspace réel disponible est le dossier `M:\dev\GraphiScope`.
 - Les fichiers visibles au lancement de l'inventaire sont : `GraphiScope.md`, `prompt0.md`, et le dossier `project-tracking/` créé dans le cadre du mandat d'initialisation.
-- Aucun dépôt Git n'a été détecté dans le workspace.
+- Dépôt Git initialisé le 16 novembre 2026 sur la branche main et publié vers https://github.com/maatallah/GraphiScope.git.
 - Le système de suivi local est un mécanisme de fichiers texte, sans dépendance cloud ni base de données externe.
 - Aucun build, installation, développement de produit ni Phase B n'ont été autorisés.
 - `GS-0001` est en statut DONE.
