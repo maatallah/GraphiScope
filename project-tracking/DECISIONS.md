@@ -99,6 +99,30 @@ Aucune date exacte n'a été établie à partir d'une preuve fiable dans le syst
 - Remplacée par : aucune
 - Référence : Décision propriétaire du 13 novembre 2026 (mandat GS-OPS-GS0005-B1-IMPLEMENTATION-001 et compléments)
 
+### DEC-0006 — Acceptation formelle du jalon GS-0006 (Préparation documentaire du Jalon B2) avec réserves
+
+- Date de décision : 16 novembre 2026
+- Sujet : acceptation formelle du livrable documentaire GS-0006 V2.0.0 comme document de cadrage préparatoire du jalon B2 sous réserve expresse de la conservation des réserves techniques R-01 à R-05, et clôture de la tâche GS-0006 au statut DONE
+- Contenu exact :
+  1. Le propriétaire accepte formellement le livrable documentaire `project-tracking/GS-0006-B2-PREPARATION-PROPOSAL.md` en version V2.0.0 (95 419 octets, 742 lignes, SHA-256 : `5CE1BAEB80DE046494DA9DE838114CD5A34E6EFBA092264643ECBF19C0FDB0F7`).
+  2. La tâche GS-0006 passe formellement du statut `REVIEW` au statut `DONE`.
+  3. L'acceptation est assortie de la conservation explicite et du maintien opposable des cinq réserves techniques suivantes :
+     - **R-01 — Mémoire et ArrayPool :** Les formulations relatives à la mémoire résidente, à la rétention des tableaux par `ArrayPool<byte>.Shared` et aux estimations de consommation mémoire restent insuffisamment qualifiées.
+     - **R-02 — Impact du Worker sur l'hôte :** L'affirmation selon laquelle le Worker avorte sans affecter l'hôte est trop catégorique ; les mécanismes Job Object ne garantissent pas l'absence de pression sur les ressources globales du système.
+     - **R-03 — Confinement du système de fichiers :** Les garanties liées aux handles, aux mécanismes de partage Windows et à `RootDirectory` doivent être interprétées dans leurs limites démontrées et ne constituent pas une preuve d'isolation hermétique.
+     - **R-04 — Politique TAR :** La politique de rejet des entrées TAR spéciales et non prises en charge conserve une réserve de spécification.
+     - **R-05 — Historique des métriques :** L'écart historique de comptage des lignes entre les versions du dossier n'est pas réconcilié (la seule normalisation LF/CRLF ne suffisant pas à justifier un changement du nombre de lignes logiques).
+  4. Ces réserves restent ouvertes, visibles et opposables ; elles ne sont ni considérées comme corrigées, ni comme définitivement résolues.
+  5. Les éléments non démontrés ne peuvent pas être présentés ultérieurement comme des garanties techniques acquises.
+  6. La clôture de GS-0006 ne vaut en aucun cas validation de l'implémentation B2, ni validation expérimentale des mécanismes non testés, ni preuve d'isolation hermétique.
+  7. **Aucune autorisation de développement B2 ou B3 n'est accordée par cette décision.**
+  8. Tout développement ultérieur nécessitera un mandat distinct et explicite du propriétaire.
+- Périmètre : Phase B — Préparation documentaire du Jalon B2 (Worker isolé sous Windows Job Objects et décompression d'archives), tâche GS-0006, livrable V2.0.0
+- Statut : VALIDATED_OWNER
+- Remplace : statut REVIEW de GS-0006
+- Remplacée par : aucune
+- Référence : Décision propriétaire DEC-0006 du 16 novembre 2026 (Option A — Acceptation documentaire avec réserves)
+
 ## 3. Décisions non validées ou non encore acceptées
 
 Aucune proposition d'agent n'a été promue en décision validée dans ce cycle d'initialisation.

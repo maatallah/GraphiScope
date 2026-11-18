@@ -35,7 +35,8 @@
 | GS-0003 | Préparation technique préalable à la Phase B de GraphiScope | P0 | DONE | Conception technique / agent responsable | GS-0001 DONE, GS-0002 DONE |
 | GS-0004 | Consignation documentaire des arbitrages O-01 à O-04 et de la règle financière générale | P0 | DONE | Gouvernance / agent responsable | GS-0001 DONE, GS-0002 DONE, GS-0003 DONE |
 | GS-0005 | Phase B — Jalon B1 : Fondations Cœur, Persistance et Confinement | P0 | DONE | Architecture & Développement B1 / agent responsable | GS-0001 DONE, GS-0002 DONE, GS-0003 DONE, GS-0004 DONE |
-| GS-0006 | Phase B — Préparation documentaire du Jalon B2 : Worker isolé sous Windows Job Objects et décompression d'archives | P0 | REVIEW | Conception technique & Cadrage B2 / agent responsable | GS-0001 DONE, GS-0002 DONE, GS-0003 DONE, GS-0004 DONE, GS-0005 DONE |
+| GS-0006 | Phase B — Préparation documentaire du Jalon B2 : Worker isolé sous Windows Job Objects et décompression d'archives | P0 | DONE | Conception technique & Cadrage B2 / agent responsable | GS-0001 DONE, GS-0002 DONE, GS-0003 DONE, GS-0004 DONE, GS-0005 DONE |
+| GS-0007 | Phase B — Jalon B2 : Réalisation du Worker isolé et du traitement unitaire des archives | P0 | PROPOSED | Architecture & Développement B2 / agent responsable | GS-0001 DONE, GS-0002 DONE, GS-0003 DONE, GS-0004 DONE, GS-0005 DONE, GS-0006 DONE |
 
 ## 5. Tableau des transitions autorisées
 
@@ -62,6 +63,7 @@ La fiche de travail détaillée de GS-0003 est disponible dans `project-tracking
 La fiche de travail détaillée de GS-0004 est disponible dans `project-tracking/tasks/GS-0004.md`.
 La fiche de travail détaillée de GS-0005 est disponible dans `project-tracking/tasks/GS-0005.md`.
 La fiche de travail détaillée de GS-0006 est disponible dans `project-tracking/tasks/GS-0006.md`.
+La fiche de travail détaillée de GS-0007 est disponible dans `project-tracking/tasks/GS-0007.md`.
 
 ## 7. Distinction entre proposition et autorisation
 
@@ -73,4 +75,4 @@ La fiche de travail détaillée de GS-0006 est disponible dans `project-tracking
 
 ## 8. Tâches proposées
 
-Aucune proposition de tâche supplémentaire n'est enregistrée dans ce cycle d'initialisation.
+- `GS-0007` : Phase B — Jalon B2 : Réalisation du Worker isolé et du traitement unitaire des archives. Proposition de cadrage formellement validée par le propriétaire le 16 novembre 2026. Tâche enregistrée au statut `PROPOSED` dans l'attente du mandat formel d'exécution.

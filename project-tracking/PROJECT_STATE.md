@@ -5,7 +5,7 @@
 - projet : GraphiScope
 - environnement : Windows
 - objectif opérationnel : gouvernance locale des tâches et reprise fiable entre agents
-- statut général : système local de suivi initialisé, consolidé et validé par le propriétaire ; GS-0001 (DONE), GS-0002 (DONE), GS-0003 (DONE), GS-0004 (DONE) et GS-0005 (DONE) formellement closes ; jalon B1 (Fondations Cœur, Persistance et Confinement) formellement accepté par le propriétaire sous décision DEC-0005 et mandat de clôture GS-OPS-GS0005-B1-CLOSURE-001 (37 fichiers approuvés, compilation .NET 10 LTS Release réussie à 0 avertissement et 0 erreur, 30 tests xUnit validés sur 30 avec 100% de succès sur vraie pile HTTP loopback et SQLite 3.53.3, confinement étanche du catalogue, réserve SMB physique maintenue NON_VERIFIE pour essais sur cible) ; jalons B2 à B5 strictement non autorisés sans mandat distinct ; référentiel technique V1.6.0, référentiel permanent des réserves transversales et règle financière transversale de 0 € en vigueur
+- statut général : système local de suivi initialisé, consolidé et validé par le propriétaire ; GS-0001 (DONE), GS-0002 (DONE), GS-0003 (DONE), GS-0004 (DONE), GS-0005 (DONE) et GS-0006 (DONE) formellement closes ; jalon B1 (Fondations Cœur, Persistance et Confinement) formellement accepté par le propriétaire sous décision DEC-0005 et mandat de clôture GS-OPS-GS0005-B1-CLOSURE-001 (37 fichiers approuvés, compilation .NET 10 LTS Release réussie à 0 avertissement et 0 erreur, 30 tests xUnit validés sur 30 avec 100% de succès sur vraie pile HTTP loopback et SQLite 3.53.3, confinement étanche du catalogue, réserve SMB physique maintenue NON_VERIFIE pour essais sur cible) ; jalon GS-0006 (Préparation documentaire B2) formellement accepté sous décision DEC-0006 avec maintien opposable des réserves R-01 à R-05 ; cadrage du jalon B2 accepté et formalisé sous GS-0007 au statut PROPOSED ; implémentation des jalons B2 à B5 strictement non autorisée sans mandat d'exécution distinct ; référentiel technique V1.6.0, référentiel permanent des réserves transversales et règle financière transversale de 0 € en vigueur
 
 ## 2. Faits vérifiés
 
@@ -41,12 +41,14 @@
 - état de GS-0003 : DONE (GS-0003 clôturé après acceptation propriétaire du livrable documentaire V1.6.0)
 - état de GS-0004 : DONE (GS-0004 clôturée après acceptation propriétaire du rapport GS-OPS-DECISIONS-O01-O04-001)
 - état de GS-0005 : DONE (jalon B1 formellement accepté par le propriétaire sous décision DEC-0005 et mandat de clôture GS-OPS-GS0005-B1-CLOSURE-001 ; 37 fichiers approuvés, 30/30 tests xUnit validés sur vraie pile HTTP loopback et SQLite 3.53.3, 0 vulnérabilité, 0 avertissement, réserve SMB physique maintenue NON_VERIFIE pour essais sur cible)
-- validation finale du propriétaire : validée pour GS-0001, GS-0002, GS-0003, GS-0004 et GS-0005 ; livrable documentaire GS-0003 V1.6.0 formellement accepté (décision DEC-0003) ; arbitrages O-01 à O-04 et règle financière générale consignés (décision DEC-0004) ; jalon B1 et livrables applicatifs formellement acceptés (décision DEC-0005)
+- état de GS-0006 : DONE (dossier préparatoire B2 V2.0.0 formellement accepté par le propriétaire sous décision souveraine DEC-0006 avec conservation des réserves techniques R-01 à R-05 ; aucune autorisation d'implémentation B2)
+- validation finale du propriétaire : validée pour GS-0001, GS-0002, GS-0003, GS-0004, GS-0005 (DEC-0005) et GS-0006 (DEC-0006) ; livrable préparatoire B2 V2.0.0 accepté avec réserves R-01 à R-05
 - état des questions O-01 à O-04 : arbitrées souverainement au plan documentaire (DEC-0004)
 - règle financière générale transversale : en vigueur (absence de dépense obligatoire sur toute la chaîne de dépendances, respectée à 100%)
-- nouvelle tâche autorisée : aucune à ce stade (toutes les tâches autorisées GS-0001 à GS-0005 sont DONE)
-- Phase B : jalon B1 formellement clos ; jalons B2 à B5 strictement non autorisés sans mandat distinct
-- prochaine action : en attente du mandat formel et explicite du propriétaire pour le cadrage et l'ouverture éventuelle du jalon B2 (Worker isolé sous Job Objects Win32 et décompression d'archives)
+- état de GS-0007 : PROPOSED (cadrage B2 accepté par le propriétaire le 16 novembre 2026 sous DEC-0006 ; fiche de tâche formalisée ; implémentation strictement non autorisée dans l'attente d'un mandat formel d'exécution)
+- nouvelle tâche autorisée : aucune à ce stade (toutes les tâches autorisées GS-0001 à GS-0006 sont DONE ; GS-0007 est PROPOSED)
+- Phase B : jalon B1 clos (DONE) ; préparation B2 close sous réserves (DONE) ; cadrage B2 accepté et fiche GS-0007 formalisée (PROPOSED) ; implémentation logicielle des jalons B2 à B5 strictement non autorisée sans mandat distinct
+- prochaine action : en attente du mandat formel et explicite du propriétaire d'exécution de B2 (définissant les précontrôles, la liste exhaustive des fichiers autorisés et les étapes B2.1 à B2.9)
 
 ## 4. Distinction entre faits, rapports et décisions
 

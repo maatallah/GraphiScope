@@ -190,3 +190,4 @@ Tout agent reprenant ce projet après la présente mission doit se conformer str
    Conserver EF Core comme simple proposition et maintenir l'alternative SQLite native directe documentée.
 5. **NE PAS affirmer d'étanchéité absolue :**  
    Respecter le modèle de menace borné et documenté sans promettre des garanties matérielles que le noyau Windows NT ne fournit pas en espace utilisateur standard.
+
